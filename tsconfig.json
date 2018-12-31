@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"jsx": "react",
+		"lib": [
+			"dom","es7"
+		],
+		"module": "es6",
+		"strict": true,
+		"outDir": "./dist",
+		"noEmitOnError": true,
+		"allowSyntheticDefaultImports": true,
+		"noImplicitReturns": true,
+		"sourceMap": true,
+		"moduleResolution": "node",
+		"locale":"zh-cn",
+		"strictNullChecks": false
+	},
+	"exclude": [
+		"/node_modules","./dist","./css","./src","./webpack"
+	],
+	"files": [
+		"./ts/main.ts"
+	]
+}
