@@ -4,7 +4,7 @@ let base = require('./webpack.base');
 const merge = require('webpack-merge');
 
 const dev = {
-	devtool: 'eval-source-map',
+	devtool: 'source-map',
 	devServer: {
 		hot: true,
 		open: true,
@@ -19,8 +19,7 @@ const dev = {
 	},
 	plugins: [
 		new webpack.HotModuleReplacementPlugin()
-	],
-	mode: 'development'
+	]
 }
 
 //@ts-ignore

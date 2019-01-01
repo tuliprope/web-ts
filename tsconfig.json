@@ -1,11 +1,11 @@
 {
 	"compilerOptions": {
-		"target": "es5",
+		"target": "es2018",
 		"jsx": "react",
 		"lib": [
-			"dom","es7"
+			"dom","es2018"
 		],
-		"module": "es6",
+		"module": "es2015",
 		"strict": true,
 		"outDir": "./dist",
 		"noEmitOnError": true,

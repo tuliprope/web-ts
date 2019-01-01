@@ -10,7 +10,7 @@ const prod = {
 	plugins: [
 
 	],
-	mode: 'production'
+	devtool: 'source-map'
 }
 
 module.exports = merge(base, prod);
